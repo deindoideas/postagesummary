@@ -1,0 +1,40 @@
+.adminpostagesummary .f_submit{
+	display: block !important;
+}
+/*
+.adminpostagesummary #form-configuration, #configuration_form{
+	float: left;
+	width: 100%;
+}
+.adminpostagesummary #form-configuration .panel-heading{
+	display: none;
+}
+.adminpostagesummary #configuration_form #fieldset_0{
+	float: left;
+}
+.adminpostagesummary #configuration_form #form-wrapper {
+	float: left;
+}
+.adminpostagesummary .panel-footer{
+	float: left;
+	border: none !important;
+}
+.adminpostagesummary #configuration_form .form-group{
+	width:50%;
+	float: left;
+	margin-bottom:2px !important; 
+}
+
+.adminpostagesummary #configuration_form .form-group:nth-child(2n) label{
+	width: 25%;
+}
+.adminpostagesummary #configuration_form .form-group div{
+	padding-left:3px; 
+}
+.adminpostagesummary #configuration_form .form-group:last-child {
+	margin-top: 20px;
+	float: left;
+}
+.adminpostagesummary .process-icon-save:before{
+	content: "\f0b0" !important;
+}*/

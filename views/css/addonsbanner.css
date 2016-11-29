@@ -1,0 +1,224 @@
+/* Addons Banner CSS */
+
+.main {
+    box-sizing: content-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    height: 90px;
+    padding: 0 10px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 4px #ccc;
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+
+}
+
+.main.adminMain{
+    margin-bottom: 20px;
+}
+
+.main .links a {
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    min-width: 70px;
+    padding-top:10px;
+}
+
+.main .links a:hover {
+	text-decoration: none;
+}
+
+.main .links i {
+	display: block;
+	font-size: 35px;
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    margin: 0 auto;
+}
+
+.main .links span {
+	display: block;
+	text-align: center;
+    margin-top:6px;
+}
+
+.main .links a.support i {
+    background-color: #943232;
+}
+
+.main .links a.support:hover i {
+    color: #000;
+}
+
+.main .links a.more i {
+	background-color: #5DA477;
+}
+
+.main .links a.more:hover i {
+    color: #000;
+}
+
+.main .links a.valoration i {
+	background-color: #4863FF;
+}
+
+.main .links a.valoration:hover i {
+    color: #000;
+}
+
+.main .links a.help-a i {
+    background-color: #C86745;
+}
+
+.main .links a.help-a:hover i {
+    color: #000;
+}
+
+
+.main .logo {
+	float:right;
+}
+
+.main .logo img {
+	max-height: 60px;
+    text-align: right;
+    float: right;
+}
+
+.main .links {
+    height: 90px;
+}
+
+.main div.popup {
+    position: absolute;
+    width: 70%;
+    margin-left: 50%;
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    overflow: hidden;
+    height:100%;
+}
+
+.main div.popup i {
+    float: left;
+    text-align: center;
+    line-height: 70px;
+    font-size: 160px;
+    -ms-transform: rotate(38deg);
+    -webkit-transform: rotate(38deg);
+    -moz-transform: rotate(38deg);
+    transform: rotate(38deg);
+    opacity: 0.4;
+    margin-left: 50%;
+    position: absolute;
+}
+
+.main div.popup span {
+    padding-top:15px;
+}
+
+.main .support .popup i {
+    color: #943232;
+    -ms-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.main .modules .popup i {
+    color: #5DA477;
+    -ms-transform-origin: 124% 0%;
+    -webkit-transform-origin: 124% 0%;
+    -moz-transform-origin: 124% 0%;
+    transform-origin: 124% 0%;
+}
+
+.main .ratings .popup i {
+    color: #4863FF;
+    -ms-transform-origin: 50% 10%;
+    -webkit-transform-origin: 50% 10%;
+    -moz-transform-origin: 50% 10%;
+    transform-origin: 50% 10%;
+}
+
+.main .help .popup i {
+    color: #4863FF;
+    -ms-transform-origin: 50% 10%;
+    -webkit-transform-origin: 50% 10%;
+    -moz-transform-origin: 50% 10%;
+    transform-origin: 50% 10%;
+}
+
+
+.main .support:hover .popup {
+    opacity: 1;
+}
+
+.main .modules:hover .popup {
+    opacity: 1;
+}
+
+.main .ratings:hover .popup {
+    opacity: 1;
+}
+
+.main .help:hover .popup {
+    opacity: 1;
+}
+
+
+
+.main .deindo a {
+    float: right;
+    padding-top: 15px;
+}
+
+.main .deindo:hover .popup {
+    opacity: 1;
+}
+
+.main div.deindo .popup {
+    position: absolute;
+    padding-top:15px;
+    width: 149%;
+    height: 90px;
+    margin-left: -107%;
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    overflow: hidden;
+    text-align: center;
+}
+
+.main div.deindo .popup i {
+    margin-left: 37%;
+     -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.main .deindo .popup i {
+    color: #4863FF;
+    -ms-transform-origin: 50% 10%;
+    -webkit-transform-origin: 50% 10%;
+    -moz-transform-origin: 50% 10%;
+    transform-origin: 50% 10%;
+}
+
